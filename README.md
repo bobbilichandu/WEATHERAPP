@@ -5,4 +5,4 @@ Web application built on flask, python using PLIVO and openweather.org apis to g
 #### LIBRARIES
 
 --> PLIVO
---> FLASK
+--> FLASK   

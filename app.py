@@ -4,10 +4,10 @@ from data import weather
 
 app=Flask(__name__)
 def fun(destination,cityid):
-    auth_id='MAMZNKMJJJYZJKNWQWNZ'
-    auth_token='MzlkYmJiOGIxNDcwYzMxNWQyMTgzODkxMzE1YmEy'
+    auth_id='YOUR AUTH ID'
+    auth_token='YOUR AUTH TOKEN'
     messagedic=weather(cityid)
-    source='+91963498372'
+    source='+your number'
     message=" "
     if messagedic['status']==10:
         message=message+"CITY ID IS INCORRECT"
